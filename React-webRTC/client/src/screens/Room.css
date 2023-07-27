@@ -1,0 +1,11 @@
+#videoElement {
+  margin: 0 auto;
+  width: 500px;
+  height: 375px;
+  background-color: #666;
+  /*Mirror code starts*/
+  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg); /* Safari and Chrome */
+  -moz-transform: rotateY(180deg); /* Firefox */
+  /*Mirror code ends*/
+}
